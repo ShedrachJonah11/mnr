@@ -11,7 +11,7 @@ export default function Home() {
       <div className="h-full">
         <div className="flex flex-col gap-8 relative z-[20] h-full bg-gradient-to-b from-[#7171714D] from-70%  to-[#3CEBEB99]">
           <div className="text-center flex flex-col justify-center item-center h-full max-h-[400px]">
-            <h1 className="font-bold text-[2rem] sm:text-[4rem]  text-[#2E9AD0]">
+            <h1 className="font-bold text-[4rem] sm:text-[4rem]  text-[#2E9AD0]">
               Mix naija entertainment
             </h1>
             <p className="font-bold text-2xl sm:text-4xl  text-white">
