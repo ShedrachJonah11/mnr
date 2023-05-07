@@ -1,6 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
 import { Button, Link, Image } from "@nextui-org/react";
+
 const MyCarousel = dynamic(() => import("./components/carousel"), {
   ssr: false,
 });
@@ -18,7 +19,7 @@ export default function Home() {
               The home of good music
             </p>
             <p className="font-bold text-[1.25rem]  text-white">
-              Check our artiste , to get the missing sound in your life
+              Check our artiste, to get the missing sound in your life
             </p>
           </div>
           <div className="flex justify-center">
