@@ -4,7 +4,7 @@ export default function AboutUs() {
   return (
     <div className="bg-black py-10 sm:px-6 px-3">
       <div className="flex flex-col gap-5 max-w-[1280px] mx-auto">
-        <h1 className="text-[#2E9AD0] text-4xl sm:text-5xl text-center font-bold">
+        <h1 className="text-[#2E9AD0] text-2xl sm:text-5xl text-center font-bold">
           {" "}
           Mix naija entertaintment
         </h1>
@@ -12,7 +12,7 @@ export default function AboutUs() {
         <div className="flex md:flex-row flex-col justify-between items-center gap-10">
           <Image src="/about1.png" alt="" className="sm:max-w-[437px]"></Image>
           <div className="flex flex-col gap-6">
-            <p className="sm:text-5xl text-4xl font-bold text-[#979797]">
+            <p className="sm:text-5xl text-2xl font-bold text-[#979797]">
               Lorem ipsum dolor sit amet consectetur.
             </p>
             <p className="font-bold text-2xl  text-white">
