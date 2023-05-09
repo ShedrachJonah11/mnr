@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Image, Spacer } from "@nextui-org/react";
 export default function AboutUs() {
   return (
@@ -36,16 +36,15 @@ export default function AboutUs() {
         <div className="flex md:flex-row flex-col-reverse justify-between items-start gap-10">
           <div className="flex flex-col">
             <p className="text-[2rem]  text-white">
-              Lorem ipsum dolor sit amet consectetur. Feugiat morbi egestas est
-              maecenas lobortis erat non. In etiam accumsan imperdiet elementum.
-              Integer morbi volutpat ultrices vitae tellus diam arcu morbi.
-              Etiam vel sit sapien viverra et odio mauris sit.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Perferendis atque perspiciatis velit odit sapiente quaerat dolore
+              esse fugiat assumenda adipisci non excepturi ipsam dolor
+              blanditiis consequatur voluptate dolores, corporis impedit.
             </p>
           </div>
           <Image
             alt=""
             removeWrapper
-
             src="/about2.png"
             className="sm:max-w-[437px] md:top-16 relative mx-auto"
           ></Image>
