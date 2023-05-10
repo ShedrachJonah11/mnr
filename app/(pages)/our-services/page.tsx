@@ -26,7 +26,7 @@ export default function OurServices() {
               <Image
                 src="/video.png"
                 alt="icon"
-                className=" sm:w-[55px] sm:h-[50px] w-[25px] h-[25px]"
+                className=" sm:w-[60px] sm:h-[50px] w-[23px] h-[23px]"
               ></Image>
               <p className="sm:text-2xl text-transparent bg-clip-text  bg-gradient-to-r from-[#FF7E07] to-[#312B07]">
                 Content production
