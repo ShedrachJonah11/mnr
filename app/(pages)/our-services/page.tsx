@@ -50,7 +50,7 @@ export default function OurServices() {
               <Image
                 src="/mic.png"
                 alt="icon"
-                className=" sm:w-[53px] sm:h-[50px] w-[25px] h-[25px]"
+                className=" sm:w-[40px] sm:h-[50px] w-[25px] h-[25px]"
               ></Image>
               <p className="sm:text-2xl text-transparent bg-clip-text  bg-gradient-to-r from-[#FF7E07] to-[#312B07]">
                 Performance and Appearance
