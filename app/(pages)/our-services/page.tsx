@@ -110,7 +110,9 @@ export default function OurServices() {
             ></Image>
             <p className="text-[2.5rem] text-white">Music Production</p>
             <p className=" text-white">
-         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias deleniti molestiae excepturi, enim consequatur doloribus.
+              Lorem ipsum dolor sit amet consectetur. Cras faucibus et elementum
+              gravida diam tempus dui dignissim sem. Augue hac eu augue proin
+              porttitor tempus tristique.
             </p>
             <Image
               src="/collaborate.png"
