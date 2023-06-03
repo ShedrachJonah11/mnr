@@ -133,9 +133,7 @@ export default function OurServices() {
               Performance and Appearance
             </p>
             <p className=" text-white">
-              Lorem ipsum dolor sit amet consectetur. Cras faucibus et elementum
-              gravida diam tempus dui dignissim sem. Augue hac eu augue proin
-              porttitor tempus tristique.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut velit at asperiores, rem perspiciatis autem? Nam distinctio quos non?
             </p>
             <Image
               src="/collaborate.png"
