@@ -40,7 +40,7 @@ const imageIndex = wrap(0, images.length, page);
  
   return (
     <div className="h-screen absolute top-[0] w-full overflow-y-hidden">
-      <div className="h-full">
+      <div className="h-full mt-48">
         <div className="flex flex-col gap-8 relative z-[50] h-full">
           <div className="text-center flex flex-col justify-center item-center h-full max-h-[400px]">
             <h1 className="font-bold text-[4rem]  text-[#2E9AD0]">

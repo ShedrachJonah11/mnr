@@ -1,5 +1,7 @@
 import React from "react";
 
 export default function Artiste() {
-    <div></div>
+    <div className="h-screen">
+        
+    </div>
 }
