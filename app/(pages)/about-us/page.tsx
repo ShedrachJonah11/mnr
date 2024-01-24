@@ -9,7 +9,7 @@ export default function AboutUs() {
         </h1>
         <Spacer y={6}></Spacer>
         <div className="flex md:flex-row flex-col justify-between items-center gap-10">
-          <Image src="/about1.png" className="sm:max-w-[437px]"></Image>
+          <Image src="/about1.png" alt="" className="sm:max-w-[437px]"></Image>
           <div className="flex flex-col gap-6">
             <p className="sm:text-5xl text-4xl font-bold text-[#979797]">
               Lorem ipsum dolor sit amet consectetur.
