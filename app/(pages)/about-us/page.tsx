@@ -42,7 +42,7 @@ export default function AboutUs() {
             </p>
           </div>
           <Image
-            
+            alt=""
             removeWrapper
 
             src="/about2.png"
