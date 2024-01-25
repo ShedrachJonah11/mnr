@@ -10,7 +10,7 @@ export function Footer() {
         } w-full  bottom-[0]`}
       >
         <div className="flex gap-3">
-          <Image src="/twitter.svg" className="w-[30px] h-[20px]"></Image>
+          <Image alt="" src="/twitter.svg" className="w-[30px] h-[20px]"></Image>
           <Image src="/facebook.svg" className="w-[30px] h-[20px]"></Image>
           <Image src="/instagram.svg" className="w-[30px] h-[20px]"></Image>
         </div>
