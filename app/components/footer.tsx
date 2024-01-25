@@ -11,7 +11,7 @@ export function Footer() {
       >
         <div className="flex gap-3">
           <Image alt="" src="/twitter.svg" className="w-[30px] h-[20px]"></Image>
-          <Image src="/facebook.svg" className="w-[30px] h-[20px]"></Image>
+          <Image alt="" src="/facebook.svg" className="w-[30px] h-[20px]"></Image>
           <Image src="/instagram.svg" className="w-[30px] h-[20px]"></Image>
         </div>
         <div>
