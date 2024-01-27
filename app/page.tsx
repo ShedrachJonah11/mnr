@@ -7,13 +7,10 @@ const MyCarousel = dynamic(() => import("./components/carousel"), {
 });
 
 export default function Home() {
- 
-
-
   return (
     <div className="h-screen absolute top-[0] w-full overflow-y-hidden">
       <div className="h-full">
-        <div className="flex flex-col gap-8 relative z-[50] h-full bg-gradient-to-b from-[#7171714D] from-70%  to-[#3CEBEB99]">
+        <div className="flex flex-col gap-8 relative z-[20] h-full bg-gradient-to-b from-[#7171714D] from-70%  to-[#3CEBEB99]">
           <div className="text-center flex flex-col justify-center item-center h-full max-h-[400px]">
             <h1 className="font-bold text-[2rem] sm:text-[4rem]  text-[#2E9AD0]">
               Mix naija entertainment
