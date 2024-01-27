@@ -1,3 +1,4 @@
+"use client"
 import { Image, Spacer, Button } from "@nextui-org/react";
 import { AiOutlineSpotify } from "react-icons/ai";
 import { PiMusicNotesFill } from "react-icons/pi";
