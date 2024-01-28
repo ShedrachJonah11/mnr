@@ -1,3 +1,4 @@
+"use client"
 import { Image, Spacer, Button } from "@nextui-org/react";
 export default function Artiste() {
   return (
