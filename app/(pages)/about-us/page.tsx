@@ -1,3 +1,4 @@
+"use client"
 import { Image, Spacer } from "@nextui-org/react";
 export default function AboutUs() {
   return (
