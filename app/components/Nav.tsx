@@ -7,7 +7,6 @@ import {
   Button,
   NavbarMenuToggle,
   NavbarMenu,
-  NavbarMenuItem,
   Link,
   Image,
   Tabs,
