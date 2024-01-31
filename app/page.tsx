@@ -1,7 +1,6 @@
 "use client";
 import dynamic from "next/dynamic";
 import { Button, Link, Image } from "@nextui-org/react";
-import { useEffect, useState } from "react";
 const MyCarousel = dynamic(() => import("./components/carousel"), {
   ssr: false,
 });
