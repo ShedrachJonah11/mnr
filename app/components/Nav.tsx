@@ -54,7 +54,7 @@ export function Nav() {
           radius="none"
           src="/logo.png"
           alt="logo"
-          className="w-[62px] h-[62px]"
+          className="w-[61px] h-[61px]"
         />
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
