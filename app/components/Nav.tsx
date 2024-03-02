@@ -57,7 +57,7 @@ export function Nav() {
           className="w-[61px] h-[61px]"
         />
       </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-6" justify="center">
+      <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <Tabs
           aria-label="Options"
           selectedKey={pathname}
