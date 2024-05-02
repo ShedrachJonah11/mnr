@@ -39,7 +39,7 @@ const imageIndex = wrap(0, images.length, page);
 
  
   return (
-    <div className="h-screen absolute top-[0] w-full">
+    <div className="h-screen absolute top-[0] w-full overflow-y-hidden">
       <div className="h-full">
         <div className="flex flex-col gap-8 relative z-[50] h-full">
           <div className="text-center flex flex-col justify-center item-center h-full max-h-[400px]">
@@ -67,7 +67,7 @@ const imageIndex = wrap(0, images.length, page);
         </div>
         <AnimatePresence initial={false} custom={direction}>
           <motion.img
-            className="w-full h-full top-[0] absolute "
+            className="w-full object-contain top-[0] absolute "
             width={1000}
             height={1000}
             key={page}
