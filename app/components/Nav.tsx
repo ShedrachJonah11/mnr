@@ -14,9 +14,12 @@ import {
   Tab,
 } from "@nextui-org/react";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 export function Nav() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
+
   const navlinks = [
     {
       key: "Home",
@@ -40,7 +43,14 @@ export function Nav() {
     },
   ];
   return (
-    <Navbar className={` py-4 relative z-[100] ${pathname==="/"?"bg-transparent":"bg-black"}`} maxWidth="lg" isBlurred={false}>
+    <Navbar
+      onMenuOpenChange={setIsMenuOpen}
+      className={` py-4 relative z-[100] ${
+        pathname === "/" ? "bg-transparent" : "bg-black"
+      }`}
+      maxWidth="lg"
+      isBlurred={false}
+    >
       <NavbarBrand>
         <Image
           radius="none"
@@ -66,17 +76,21 @@ export function Nav() {
           ))}
         </Tabs>
       </NavbarContent>
-      <NavbarContent className="hidden sm:flex" justify="start"></NavbarContent>
-      <NavbarContent className="sm:hidden" justify="start">
-        <NavbarMenuToggle />
+      <NavbarContent className="hidden sm:flex" justify="end"></NavbarContent>
+      <NavbarContent className="sm:hidden flex" justify="end">
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="sm:hidden flex  w-10 text-white"
+        />
       </NavbarContent>
-      <NavbarMenu>
+      <NavbarMenu className="bg-black text-white pt-10">
         {navlinks.map((link, index) => (
-          <NavbarMenuItem key={index}>
-            <Link className="w-full" href="#" size="lg">
-              {link.key}
-            </Link>
-          </NavbarMenuItem>
+          <NavbarItem
+            className="text-white"
+            key={index}
+            as={Link}
+            href={link.link}
+          >{link.key}</NavbarItem>
         ))}
       </NavbarMenu>
     </Navbar>

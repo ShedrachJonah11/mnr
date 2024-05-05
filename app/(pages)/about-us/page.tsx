@@ -3,15 +3,15 @@ export default function AboutUs() {
   return (
     <div className="bg-black py-10 sm:px-6 px-3">
       <div className="flex flex-col gap-5 max-w-[1280px] mx-auto">
-        <h1 className="text-[#2E9AD0] text-5xl text-center font-bold">
+        <h1 className="text-[#2E9AD0] text-4xl sm:text-5xl text-center font-bold">
           {" "}
           Mix naija entertaintment
         </h1>
         <Spacer y={6}></Spacer>
-        <div className="flex sm:flex-row flex-col justify-between items-center gap-10">
-          <Image src="/about1.png" className="max-w-[437px]"></Image>
+        <div className="flex md:flex-row flex-col justify-between items-center gap-10">
+          <Image src="/about1.png" className="sm:max-w-[437px]"></Image>
           <div className="flex flex-col gap-6">
-            <p className="text-5xl font-bold text-[#979797]">
+            <p className="sm:text-5xl text-4xl font-bold text-[#979797]">
               Lorem ipsum dolor sit amet consectetur.
             </p>
             <p className="font-bold text-2xl  text-white">
@@ -32,7 +32,7 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="flex sm:flex-row flex-col justify-between items-start gap-10">
+        <div className="flex md:flex-row flex-col-reverse justify-between items-start gap-10">
           <div className="flex flex-col">
             <p className="text-[2rem]  text-white">
               Lorem ipsum dolor sit amet consectetur. Feugiat morbi egestas est
@@ -42,8 +42,11 @@ export default function AboutUs() {
             </p>
           </div>
           <Image
+            
+            removeWrapper
+
             src="/about2.png"
-            className="max-w-[437px] top-16 relative"
+            className="sm:max-w-[437px] md:top-16 relative mx-auto"
           ></Image>
         </div>
       </div>
